@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60E68C901F0EB67C00D602DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E68C8F1F0EB67C00D602DB /* main.m */; };
+		60E68C931F0EB67C00D602DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E68C921F0EB67C00D602DB /* AppDelegate.m */; };
+		60E68C9B1F0EB67C00D602DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E68C9A1F0EB67C00D602DB /* Assets.xcassets */; };
+		60E68C9E1F0EB67C00D602DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E68C9C1F0EB67C00D602DB /* LaunchScreen.storyboard */; };
+		60E68CA61F0EB7B900D602DB /* GoExcite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E68CA51F0EB7B900D602DB /* GoExcite.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60E68C8B1F0EB67C00D602DB /* GoExcite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoExcite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E68C8F1F0EB67C00D602DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60E68C911F0EB67C00D602DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60E68C921F0EB67C00D602DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60E68C9A1F0EB67C00D602DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60E68C9D1F0EB67C00D602DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60E68C9F1F0EB67C00D602DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60E68CA51F0EB7B900D602DB /* GoExcite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoExcite.framework; path = Golang/GoExcite.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60E68C881F0EB67C00D602DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E68CA61F0EB7B900D602DB /* GoExcite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60E68C821F0EB67C00D602DB = {
+			isa = PBXGroup;
+			children = (
+				60E68CA51F0EB7B900D602DB /* GoExcite.framework */,
+				60E68C8D1F0EB67C00D602DB /* GoExcite */,
+				60E68C8C1F0EB67C00D602DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60E68C8C1F0EB67C00D602DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60E68C8B1F0EB67C00D602DB /* GoExcite.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60E68C8D1F0EB67C00D602DB /* GoExcite */ = {
+			isa = PBXGroup;
+			children = (
+				60E68C911F0EB67C00D602DB /* AppDelegate.h */,
+				60E68C921F0EB67C00D602DB /* AppDelegate.m */,
+				60E68C9A1F0EB67C00D602DB /* Assets.xcassets */,
+				60E68C9C1F0EB67C00D602DB /* LaunchScreen.storyboard */,
+				60E68C9F1F0EB67C00D602DB /* Info.plist */,
+				60E68C8E1F0EB67C00D602DB /* Supporting Files */,
+			);
+			path = GoExcite;
+			sourceTree = "<group>";
+		};
+		60E68C8E1F0EB67C00D602DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60E68C8F1F0EB67C00D602DB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60E68C8A1F0EB67C00D602DB /* GoExcite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E68CA21F0EB67C00D602DB /* Build configuration list for PBXNativeTarget "GoExcite" */;
+			buildPhases = (
+				60E68C871F0EB67C00D602DB /* Sources */,
+				60E68C881F0EB67C00D602DB /* Frameworks */,
+				60E68C891F0EB67C00D602DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoExcite;
+			productName = GoExcite;
+			productReference = 60E68C8B1F0EB67C00D602DB /* GoExcite.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60E68C831F0EB67C00D602DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Casey Manus";
+				TargetAttributes = {
+					60E68C8A1F0EB67C00D602DB = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 60E68C861F0EB67C00D602DB /* Build configuration list for PBXProject "GoExcite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60E68C821F0EB67C00D602DB;
+			productRefGroup = 60E68C8C1F0EB67C00D602DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60E68C8A1F0EB67C00D602DB /* GoExcite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60E68C891F0EB67C00D602DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E68C9E1F0EB67C00D602DB /* LaunchScreen.storyboard in Resources */,
+				60E68C9B1F0EB67C00D602DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60E68C871F0EB67C00D602DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E68C931F0EB67C00D602DB /* AppDelegate.m in Sources */,
+				60E68C901F0EB67C00D602DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60E68C9C1F0EB67C00D602DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60E68C9D1F0EB67C00D602DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60E68CA01F0EB67C00D602DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60E68CA11F0EB67C00D602DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60E68CA31F0EB67C00D602DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Golang",
+				);
+				INFOPLIST_FILE = GoExcite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmanus.GoExcite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60E68CA41F0EB67C00D602DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Golang",
+				);
+				INFOPLIST_FILE = GoExcite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmanus.GoExcite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60E68C861F0EB67C00D602DB /* Build configuration list for PBXProject "GoExcite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E68CA01F0EB67C00D602DB /* Debug */,
+				60E68CA11F0EB67C00D602DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E68CA21F0EB67C00D602DB /* Build configuration list for PBXNativeTarget "GoExcite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E68CA31F0EB67C00D602DB /* Debug */,
+				60E68CA41F0EB67C00D602DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60E68C831F0EB67C00D602DB /* Project object */;
+}

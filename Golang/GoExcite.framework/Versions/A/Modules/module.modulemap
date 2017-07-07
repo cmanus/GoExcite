@@ -1,0 +1,8 @@
+framework module "GoExcite" {
+	header "ref.h"
+    header "GoExcite.objc.h"
+    header "Universe.objc.h"
+    header "GoExcite.h"
+
+    export *
+}
